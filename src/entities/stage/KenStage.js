@@ -1,6 +1,5 @@
 import { FRAME_TIME } from "../../constants/game.js";
 import { STAGE_MID_POINT, STAGE_PADDING } from "../../constants/stage.js";
-import { playSound } from "../../engine/SoundHandler.js";
 import { drawFrame } from "../../util/context.js";
 import { BackgroundAnimation } from "./shared/BackgroundAnimation.js";
 import { SkewedFloor } from "./shared/SkewedFloor.js";
