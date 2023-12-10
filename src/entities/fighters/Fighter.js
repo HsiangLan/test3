@@ -15,7 +15,6 @@ import {
 import { FRAME_TIME } from '../../constants/game.js';
 import { STAGE_FLOOR, STAGE_MID_POINT, STAGE_PADDING } from '../../constants/stage.js';
 import * as Control from '../../engine/InputHandler.js';
-import { playSound, stopSound } from '../../engine/SoundHandler.js';
 import { boxOverlap, getActualBoxDimensions, rectsOverlap } from '../../util/collisions.js';
 import * as DEBUG from '../../util/fighterDebug.js';
 
